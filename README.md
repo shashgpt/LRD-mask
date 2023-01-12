@@ -1,2 +1,2 @@
 # A Mask-based Logic Rules Dissemination Method for Sentiment Classifiers
-Accepted for publication as a full paper at ECIR2023
+This repository contains the code and dataset used in our paper accepted for publication at ECIR2023
