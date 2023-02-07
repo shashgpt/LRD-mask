@@ -6,4 +6,4 @@ We constructed a dataset from tweets based on Covid-19 topic for sentence-level 
 
 ## Instructions to run the code and reproduce results
 
-1) Download the dataset from the Google Drive link and place it in the covid_19_tweets_dataset folder
+1) Download the dataset from the Google Drive link, unzip it and place it in the covid_19_tweets_dataset folder
