@@ -11,3 +11,7 @@ We constructed a dataset from tweets based on Covid-19 topic for sentence-level 
 ## Instructions to run the code and reproduce results
 
 1) Download the dataset from the Google Drive link and place it in the covid_19_tweets_dataset folder
+2) To reproduce results for base models, specify the configuration parameters in base_model/config/config.py and run base_model/main.py
+3) To reproduce results for IKD models, specify the configuration parameters in IKD/config/config.py and run IKD/main.py
+4) To reproduce results for CWE models, specify the configuration parameters in CWE/config/config.py and run CWE/main.py
+5) To reproduce results for mask models, specify the configuration parameters in mask_model/config/config.py and run mask_model/main.py
