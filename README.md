@@ -15,3 +15,4 @@ We constructed a dataset from tweets based on Covid-19 topic for sentence-level 
 3) To reproduce results for IKD models, specify the configuration parameters in IKD/config/config.py and run IKD/main.py
 4) To reproduce results for CWE models, specify the configuration parameters in CWE/config/config.py and run CWE/main.py
 5) To reproduce results for mask models, specify the configuration parameters in mask_model/config/config.py and run mask_model/main.py
+6) To view the results presented in the paper, run analysis.ipynb
