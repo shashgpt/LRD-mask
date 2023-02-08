@@ -2,7 +2,7 @@ import os
 import pickle
 
 # change manually
-ASSET_NAME = "lstm_model_testing_reproducibility_of_results"
+ASSET_NAME = "lstm_model"
 
 # Setting the hyperparameters
 MODEL_NAME = "lstm"
@@ -12,7 +12,7 @@ FINE_TUNE_EMBEDDING_MODEL = False # False => "static", True => "non_static"
 OPTIMIZER = "adam" # adam, adadelta (change manually)
 LEARNING_RATE = 3e-5 # 1e-5, 3e-5, 5e-5, 10e-5
 MINI_BATCH_SIZE = 50 # 30, 50
-TRAIN_EPOCHS = 1
+TRAIN_EPOCHS = 200
 DROPOUT = 0.4
 LIME_NO_OF_SAMPLES = 1000
 HIDDEN_UNITS_CLASSIFIER = 512

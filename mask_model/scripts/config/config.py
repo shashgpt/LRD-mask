@@ -1,7 +1,7 @@
 import os
 import pickle
 
-ASSET_NAME = "lstm_lstm_mask_model-256_HIDDEN_UNITS_CLASSIFIER-testing_reproducibility_of_results" # change manually
+ASSET_NAME = "lstm_lstm_mask_model-256_HIDDEN_UNITS_CLASSIFIER" # change manually
 MODEL_NAME = "lstm_lstm_mask"
 SEED_VALUE = 11
 DATASET_NAME = "Covid-19_tweets"
@@ -9,7 +9,7 @@ FINE_TUNE_EMBEDDING_MODEL = False # False => "static", True => "non_static"
 OPTIMIZER = "adam" # adam, adadelta (change manually)
 LEARNING_RATE = 3e-5 # 1e-5, 3e-5, 5e-5, 10e-5
 MINI_BATCH_SIZE = 50 # 30, 50
-TRAIN_EPOCHS = 1
+TRAIN_EPOCHS = 200
 DROPOUT = 0.4
 LIME_NO_OF_SAMPLES = 1000
 HIDDEN_UNITS_CLASSIFIER = 256
