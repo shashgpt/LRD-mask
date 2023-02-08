@@ -7,12 +7,20 @@ We constructed a dataset from tweets based on Covid-19 topic for sentence-level 
 ## Requirements
 1) Anaconda 4.9.2 environment with Python 3.8.12
 2) Specific packages to be installed in the environment as mentioned in requirements.txt
+3) Ubuntu 20.04
 
 ## Instructions to run the code and reproduce results
 
 1) Download the dataset from the Google Drive link and place it in the covid_19_tweets_dataset folder
 2) To reproduce results for base models, specify the configuration parameters in base_model/config/config.py and run base_model/main.py
 3) To reproduce results for IKD models, specify the configuration parameters in IKD/config/config.py and run IKD/main.py
-4) To reproduce results for CWE models, specify the configuration parameters in CWE/config/config.py and run CWE/main.py
-5) To reproduce results for mask models, specify the configuration parameters in mask_model/config/config.py and run mask_model/main.py
-6) To view the results presented in the paper, run analysis.ipynb
+4) To reproduce results for CWE models 
+   4.1) Install docker (version 20.10.12, build e91ed57)
+   4.2) Install Nvidia Docker toolkit for GPU support in Docker (https://github.com/NVIDIA/nvidia-docker/blob/master/README.md#quickstart).
+   4.3) Run "sudo docker run --mount type=bind,source="$(pwd)",target=/mnt --gpus all -it --rm tensorflow/tensorflow:1.7.0-gpu-py3 bash"
+   4.4) Run "pip install keras==2.2.0 tensorflow_hub==0.1.1 tqdm lime"
+   4.5) Navigate to /mnt directory
+   4.6) Specify the configuration parameters in CWE/config/config.py
+   4.7) Run CWE/main.py
+6) To reproduce results for mask models, specify the configuration parameters in mask_model/config/config.py and run mask_model/main.py
+7) To view the results presented in the paper, run analysis.ipynb
