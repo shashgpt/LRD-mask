@@ -9,8 +9,7 @@ We constructed a dataset from tweets based on Covid-19 topic for sentence-level 
 2) Specific packages to be installed in the environment as mentioned in requirements.txt
 3) Ubuntu 20.04
 
-## Instructions to run the code and reproduce results
-
+## Instructions to reproduce results
 1) Download the dataset from the Google Drive link and place it in the covid_19_tweets_dataset folder
 2) To reproduce results for base models, specify the configuration parameters in base_model/config/config.py and run base_model/main.py
 3) To reproduce results for IKD models, specify the configuration parameters in IKD/config/config.py and run IKD/main.py
