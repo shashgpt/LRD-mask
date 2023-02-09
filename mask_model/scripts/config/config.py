@@ -1,7 +1,7 @@
 import os
 import pickle
 
-ASSET_NAME = "lstm_lstm_mask_model-256_HIDDEN_UNITS_CLASSIFIER" # change manually
+ASSET_NAME = "lstm_lstm_mask_model" # change manually
 MODEL_NAME = "lstm_lstm_mask"
 SEED_VALUE = 11
 DATASET_NAME = "Covid-19_tweets"
