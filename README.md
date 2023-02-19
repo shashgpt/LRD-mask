@@ -9,7 +9,7 @@ Below, we describe each column in the dataset
 | ------------- |:-------------:|
 | tweet_id      | The tweet ID of the scrapped tweet |
 | tweet      | The scrapped tweet |
-| preprocessed_tweet | Preprocessed tweet generated as per the preprocessing methodology described in the paper |
+| preprocessed_tweet | Pre-processed tweet generated as per the methodology described in the paper |
 | rule_structure | The Rule-syntactic structure present in the tweet |
 | rule_label | Applicable Rule-label corresponding to the Rule-syntactic structure present |
 | contrast | Indicates whether the conjuncts of the preprocessed tweet have contrastive polarities of sentiment incase there is a Rule-label applicable on the tweet |
