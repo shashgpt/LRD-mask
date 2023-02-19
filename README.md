@@ -8,7 +8,7 @@ Below, we describe each column in the dataset
 | Columns        | Meaning      |
 | ------------- |:-------------:|
 | tweet_id      | The tweet ID of the scrapped tweet |
-| tweet      | The actual tweet      |
+| tweet      | The scrapped tweet |
 | preprocessed_tweet | Preprocessed tweet generated as per the preprocessing methodology described in the paper |
 | rule_structure | The Rule-syntactic structure present in the tweet |
 | rule_label | Applicable Rule-label corresponding to the Rule-syntactic structure present |
