@@ -4,6 +4,14 @@ This repository contains the code and dataset used in our paper accepted for pub
 ## Covid-19 twitter dataset for testing Logic Rule Dissemination
 We constructed a dataset from tweets based on Covid-19 topic for sentence-level binary sentiment classification task. The dataset can be downloaded from this google-drive link: https://drive.google.com/file/d/1p3yZ-L8OxsZYuXOJoOn8aspYFLnn68b_/view?usp=share_link
 
+Below, we show what each column in the dataset represents
+| Columns        | Meaning      |
+| ------------- |:-------------:|
+| tweet_id      | The tweet ID of the scrapped tweet |
+| tweet      | The actual tweet      |
+| preprocessed_tweet | The preprocessed tweet generated from the tweet preprocessor available [here](https://pypi.org/project/tweet-preprocessor/)|
+| clause_A | The A conjunct of the preprocessed tweet |
+
 ## Requirements
 1) Anaconda 4.9.2 environment with Python 3.8.12
 2) Specific packages to be installed in the environment as mentioned in requirements.txt
