@@ -2,7 +2,7 @@
 This repository contains the code and dataset used in our paper accepted for publication at ECIR2023
 
 ## Covid-19 twitter dataset for testing Logic Rule Dissemination
-We constructed a dataset from tweets based on Covid-19 topic for sentence-level binary sentiment classification task. The dataset can be downloaded from this google-drive link: https://drive.google.com/file/d/1p3yZ-L8OxsZYuXOJoOn8aspYFLnn68b_/view?usp=share_link
+We constructed a dataset from tweets based on Covid-19 topic for sentence-level binary sentiment classification task. The dataset can be downloaded from this link: https://github.com/shashgpt/Covid19-twitter
 
 Below, we describe each column in the dataset
 | Columns        | Meaning      |
